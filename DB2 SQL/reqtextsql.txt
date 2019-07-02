@@ -1,0 +1,16 @@
+create table reqtext
+(                          
+    rtreqno    numeric(6),    
+    rtseqno    numeric(3),     
+    rttextno   numeric(3),      
+    rttext     char(40),     
+    rtcrtby    char(10),       
+    rtcrtdte   numeric(8),    
+    rtchgby    char(10),   
+    rtchgdte   numeric(8), 
+ 
+    primary key(rtreqno, rtseqno, rttextno),
+
+    foreign key reqtext_fk (rtreqno, rtseqno)
+    references reqline on delete no action
+)

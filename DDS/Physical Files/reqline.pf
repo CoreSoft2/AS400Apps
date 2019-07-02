@@ -1,0 +1,27 @@
+                R REQLINER
+                  RLREQNO        6  0
+                  RLSEQNO        3  0
+                  RLDLVRBY	 8  0
+                  RLITEM 	 8 
+                  RLITDESC 	40
+                  RLQTY 	 6  0
+                  RLUNITS 	 3
+                  RLVENDITEM	20
+                  RLGLACCT	 9  0
+                  RLASSIGNPO	 6  0
+                  RLASSIGNLN	 3  0   
+                  RLCRTBY	10  
+                  RLCRTDTE	 8  0  
+                  RLCHGBY	10  
+                  RLCHGDTE	 8  0  
+                K RLREQNO
+                K RLSEQNO
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+create table reqhead       
+(                          
+    rhreqno    numeric(6) primary key,     
+    rhmarkfor  char(20),   
+    rhreqfor   char(20),     
+    rhprojno   char(15),    
+    rhvendno   numeric(5),    
+    rhvendname char(20),       
+    rhshipadd1 char(30),       
+    rhshipadd2 char(30),   
+    rhshipadd3 char(30),    
+    rhvendadd1 char(30),     
+    rhvendadd2 char(30),   
+    rhvendadd3 char(30),  
+    rhprintdte numeric(8),    
+    rhcrtby    char(10),       
+    rhcrtdte   numeric(8),    
+    rhchgby    char(10),   
+    rhchgdte   numeric(8)
+)

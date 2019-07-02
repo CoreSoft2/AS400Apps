@@ -1,0 +1,28 @@
+                R REQHEADR
+                  RHREQNO        6  0
+                  RHMARKFOR     20
+                  RHREQFOR 	20 
+                  RHPROJNO 	15
+                  RHVENDNO 	 5  0
+                  RHVENDNAME 	20
+                  RHSHIPADD1	30
+                  RHSHIPADD2	30
+                  RHSHIPADD3	30
+                  RHVENDADD1	30 
+                  RHVENDADD2	30 
+                  RHVENDADD3	30 
+                  RHPRINTDTE	 8  0
+                  RHCRTBY	10  
+                  RHCRTDTE	 8  0  
+                  RHCHGBY	10  
+                  RHCHGDTE	 8  0  
+                K RHREQNO
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+create table reqline       
+(                          
+    rlreqno    numeric(6),    
+    rlseqno    numeric(3),    
+    rldlvrby   numeric(8),   
+    rlitem     char(8),     
+    rlitdesc   char(40),    
+    rlqty      numeric(6),    
+    rlunits    char(3),       
+    rlvenditem char(20),    
+    rlglacct   numeric(9),   
+    rlassignpo numeric(6),  
+    rlassignln numeric(3),  
+    rlcrtby    char(10),       
+    rlcrtdte   numeric(8),    
+    rlchgby    char(10),   
+    rlchgdte   numeric(8), 
+
+    primary key(rlreqno, rlseqno), 
+
+    foreign key reqline_fk (rlreqno)
+    references reqhead on delete no action
+)
